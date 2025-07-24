@@ -1,0 +1,53 @@
+body {
+  padding-top: 80px; /* أو نفس ارتفاع Navbar */
+}
+
+.active{
+    background-color: cadetblue;
+}
+.star-line-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.line {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+}
+.star {
+  margin: 0 20px;
+  color: white;
+  font-size: 20px;
+}
+.star-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.linee {
+  width: 100px;
+  height: 5px;
+  background-color: rgba(1, 1, 53, 0.769);
+}
+.starr {
+  margin: 0 20px;
+  
+  font-size: 20px;
+}
+.item .overlay {
+  background-color: rgba(0, 123, 255, 0.6); 
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.item:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
